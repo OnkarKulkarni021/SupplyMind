@@ -8,4 +8,4 @@ def generate_explanation(data):
 
     response = llm.invoke(prompt)
 
-    return response.content
+    return response
